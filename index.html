@@ -31,6 +31,7 @@
 							<header>
 								<h1>Hi, I'm <strong>Ripunjay Deka</strong>.</h1>
 							</header>
+							<h3 class="post">I Am  <span class="typing-text"> a front end developer</span></h3>
 							<p>And this is <strong>My Simple Portfolio Website</strong>, a free, fully responsive HTML5 site template designed  <a href="https://github.com/Ripunjaycoder
 								"></a> by <a href="https://github.com/Ripunjaycoder
 								">Ripunjay</a> &amp; released under the <a href="https://github.com/Ripunjaycoder
@@ -251,6 +252,25 @@
 					</footer>
 				</div>
 			</article>
+		<!-- type.js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+<script>
+
+    var type = new Typed('.typing-text',{
+        strings : [ 'a web designer', 'a front end developer', 'a graphic designer', 'an Astronomical photographer' ],
+        typeSpeed: 120,
+        loop:true
+    });
+
+    let themeColor = document.querySelectorAll('.theme-toggler span');
+    themeColor.forEach(color => color.addEventListener('click', () =>{
+        let background = color.style.background;
+        document.querySelector('body').style.background = background;
+    }));
+
+</script>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
