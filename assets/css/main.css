@@ -2262,6 +2262,24 @@ input, select, textarea {
 				color: #777;
 			}
 
+
+          @media screen {
+				#copyright  iframe{
+				    background: rgba(255,255,255,.2);
+				    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+				    padding:1rem 1rem;
+				    margin: 0.01em;
+				    left:6;
+				    color:#fff;
+				    font-size: .01rem;
+				    border-radius: .01rem;
+				    height: fit-content;
+				    border-image-width: auto;
+					width: fit-content;
+			
+			    }
+			}
+
 /* Large */
 
 	@media screen and (max-width: 1280px) {
